@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Picadu пост</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-wrapper">
+            <a href="index.html" class="header-logo">
+        <img src="img/logo.svg" alt="Logo: picadu">
+            </a>
+        <nav class="header-nav">
+            <ul class="header-menu">
+                <li class="header-menu-item"><a href="" class="header-menu-link"> Свежее</a></li>
+                <li class="header-menu-item"><a href="" class="header-menu-link"> Лучшее</a></li>
+                <li class="header-menu-item"><a href="" class="header-menu-link">Горячие</a></li>
+                <li class="header-menu-item"><a href="" class="header-menu-link">Подписки</a></li>
+            </ul>
+        </nav>
+        <div class="input-group search">
+            <input type="text" class="search-input" placeholder="Поиск по сайту">
+            <button class="search-button">
+                <img src="img/search.svg" alt="icon search" class="search-icon" />
+            </button>
+        </div>
+        <a href="#" class="menu-toggle" id="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </a>
+        </div>
+    </header>
+    <div class="content">
+        <main class="posts">
+            <form action="#" class="add-post">
+                <input type="text" name="post-title" class="add-title" placeholder="Заголовок поста">
+                <textarea name="text" id="text" class="add-text" placeholder="Текст вашего поста"></textarea>
+                <div class="add-button">
+                    <button type="submit" class="button add-buttons">
+                        <svg width="11px" height="13px" class="icon icon-fire">
+                            <use xlink:href="img/icons.svg#publ"></use>
+                        </svg>
+                        Опубликовать пост
+                    </button>
+                    <button class="button-outline">Видео</button>
+                    <button class="button-outline">Фото</button>
+                </div>
+            </form>
+        </main>
+        <aside class="sidebar">
+            <div class="user">
+                <a href="#" class="user-info">
+                    <img width="40px" height="40px" src="img/avatar.jpg" alt="User photo" class="user-avatar">
+                    <span class="user-name">
+                        evgenybobkov
+                    </span>
+                </a>
+                <a href="#" class="exit">
+                    <svg  width="20px" height="20px" class="icon">
+                        <use xlink:href="img/icons.svg#turn"></use>
+                    </svg>
+                </a>
+            </div>
+            <nav class="sidebar-nav">
+                <ul class="sidebar-menu sidebar-menu-item">
+                    <a href="##" class="sidebar-menu-link">
+                        Ответы
+                    </a>
+                    <a href="#" class="sidebar-menu-link">
+                        Комменатрии
+                    </a>
+                    <a href="#" class="sidebar-menu-link">
+                        Оценки
+                    </a>
+                    <a href="#" class="sidebar-menu-link">
+                        Сохраненное
+                    </a>
+                    <a href="#" class="sidebar-menu-link active">
+                        Подписки
+                    </a>
+                    <a href="#" class="sidebar-menu-link">
+                        Заметки
+                    </a>
+                    <a href="#" class="sidebar-menu-link">
+                        Игнор лист
+                    </a>
+                </ul>
+            </nav>
+            <a class="promo">
+            </a>
+        </aside>
+    </div>
+    <script src="js/main.js"> </script>
+</body> 
+</html>
